@@ -1,0 +1,141 @@
+.layout {
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(106, 26, 0, 0.3);
+}
+
+.form_wrapper {
+  position: absolute;
+  right: 0;
+  background: white;
+  border-radius: 20px 0px 0px 20px;
+  height: 100%;
+  max-width: 560px;
+  width: 100%;
+  animation: fadeIn 0.3s;
+}
+
+.form_wrapper > svg {
+  cursor: pointer;
+  display: block;
+  margin: 30px 30px 210px auto;
+  fill: black;
+  transition: 0.5s;
+}
+
+.form_wrapper > svg:hover {
+  fill: #e83801;
+  transition: 0.5s;
+  transform: rotate(90deg);
+}
+
+.form_content {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 30px;
+}
+
+.form_content > span {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.form_inputs_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.form_inputs_wrapper > input {
+  height: 50px;
+  padding: 15px 20px;
+  border-radius: 100px;
+  border: 1px solid #ddd;
+}
+
+.form_utils {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.form_utils > a {
+  margin-right: 0;
+  margin-left: auto;
+  font-size: 14px;
+  color: #014e87;
+}
+
+.form_utils > input {
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #b4b4b4;
+}
+
+.form_utils > label {
+  color: #656565;
+  font-size: 16px;
+}
+
+.login_button {
+  height: 45px;
+  border-radius: 100px;
+  color: white;
+  background-color: #e83801;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  transition: 0.5s;
+}
+
+.login_button:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+
+.registration_link {
+  margin: 0 auto;
+}
+
+.registration_link > span {
+  margin-right: 15px;
+  color: #656565;
+  font-size: 14px;
+}
+
+.registration_link > a {
+  color: #2d6cb4;
+  font-size: 12px;
+}
+
+@media (max-width: 560px) {
+  .form_wrapper {
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 340px) {
+
+  .form_utils > input {
+    width: 20px;
+    height: 20px;
+  }
+
+  .form_utils > label {
+    color: #656565;
+    font-size: 13px;
+  }
+
+  .form_utils > a {
+    font-size: 13px;
+  }
+
+}

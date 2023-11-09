@@ -1,0 +1,23 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.main_title {
+	animation: fadeIn 1s ease-in-out;
+}
+
+.main_text {
+	animation: fadeIn 1s ease-in-out;
+}
+
+@media (max-width: 460px){
+	.main_title {
+		font-size: 25px;
+	}
+}

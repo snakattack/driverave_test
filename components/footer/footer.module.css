@@ -1,8 +1,12 @@
+.footer {
+  height: 155px;
+}
+
 .footer_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 155px;
+  height: 100%;
 }
 
 .logo_wrapper {
@@ -44,6 +48,10 @@
 }
 
 @media (max-width: 768px) {
+  .footer {
+    height: 250px;
+  }
+  
   .footer_container {
     flex-direction: column;
     justify-content: center;

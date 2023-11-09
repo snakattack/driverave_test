@@ -4,6 +4,6 @@ module.exports = {
   output: "export",
   images: {
     unoptimized: true,
-		path: process.env.NODE_ENV === 'production' ? '/driverave_test/_next/image' : '_next/image',
+		path: process.env.NODE_ENV === 'production' ? '/driverave_test/_next/image' : '/',
   },
 };

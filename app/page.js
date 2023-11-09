@@ -6,7 +6,7 @@ export const metadata = {
   title: "Главная страница | DriverAve",
   description: "Аренда жилья и автомобилей от владельцев",
   openGraph: {
-    title: 'Главная страница | DriverAve"',
+    title: 'Главная страница | DriverAve',
     description: "Аренда жилья и автомобилей от владельцев",
     siteName: "DriverAve",
     type: "website",

@@ -3,7 +3,7 @@ import Link from "next/link";
 import style from "./footer.module.css";
 const Footer = () => {
   return (
-    <footer>
+    <footer className={style.footer}>
       <div className={`${style.footer_container} container`}>
         <div className={style.logo_wrapper}>
           <Link href={"/"}>

@@ -4,7 +4,6 @@ import Header from "../components/header/header";
 import Footer from "../components/footer/footer";
 
 export const metadata = {
-  metadataBase: new URL('localhost:3000'),
   icons: {
     icon: [{ url: "/favicon.ico" }],
   },

@@ -8,7 +8,7 @@ const Footer = () => {
         <div className={style.logo_wrapper}>
           <Link href={"/"}>
             <Image
-              src="/DRIVERAVE.png"
+              src="./DRIVERAVE.png"
               alt="logo_footer"
               width={189}
               height={30}

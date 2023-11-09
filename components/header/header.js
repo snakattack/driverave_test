@@ -30,7 +30,7 @@ const Header = () => {
         <Link href={"/"}>
           <Image
             className={style.logo}
-            src="/DRIVERAVE.png"
+            src="./DRIVERAVE.png"
             alt="logo"
             width={253}
             height={40}
